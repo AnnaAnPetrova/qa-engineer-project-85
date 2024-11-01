@@ -201,3 +201,18 @@
     - Нажать кнопку «Cancel»
   expected-result: |
     Приглашение должно быть отменено
+
+- summary: |
+    Создание игры с ботом
+  requirement: 
+    Пользователь должен иметь возможность создать игру с ботом
+  prerequisites:
+    No data
+  test-data: |
+    No data
+  steps:
+    - Нажать кнопку «Create game»
+    - Нажать кнопку «With a bot»
+    - Нажать кнопку «Create battle»
+  expected-result: |
+    Должна быть создана новая игра с ботом 
