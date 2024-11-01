@@ -92,3 +92,16 @@
     - Нажать кнопку «Sigh in with Github»
   expected-result: |
     Пользователь должен попасть на главную страницу
+
+- summary: |
+    Проверка входа пользователя через Discord
+  requirement: |
+    При использовании аккаунта Discord пользователь должен войти в аккаунт
+  prerequisites:
+    Открыта страница логина
+  test-data: |
+    No data
+  steps:
+    - Нажать кнопку «Sigh in with Discord»
+  expected-result: |
+    Пользователь должен попасть на главную страницу
