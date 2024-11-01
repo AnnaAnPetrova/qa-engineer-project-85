@@ -1,12 +1,37 @@
 ---
 - summary: |
+    Проверка кнопки «Sign in»
+  requirement: |
+    Пользователь должен попасть на страницу логина
+  prerequisites: |
+    No data
+  test-data: |
+    No data
+  steps:
+    - Нажать кнопку «Sign in»
+  expected-result: |
+    Пользователь должен попасть на страницу логина
+
+- summary: |
+    Проверка кнопки «Sign up»
+  requirement: |
+    Пользователь должен попасть на страницу регистрации
+  prerequisites: |
+    No data
+  test-data: |
+    No data
+  steps:
+    - Нажать кнопку «Sign up»
+  expected-result: |
+    Пользователь должен попасть на страницу регистрации
+    
+- summary: |
     Регистрация нового пользователя с уникальными данными
   requirement: |
     Пользователь должен получить подтверждение об успешной регистрации
   prerequisites: |
     Открыта страница регистрации
   test-data: |
-    Тестовые данные
     Nickname = Anna2 Email = anna.petrova@kibb.knc.ru Password = password
   steps:
     - Ввести Nickname
@@ -23,7 +48,6 @@
   prerequisites: |
     Открыта страница регистрации
   test-data: |
-    Тестовые данные
     Nickname = Anna Email = anna.petrova@kibb.knc.ru Password = password
   steps:
     - Ввести Nickname
@@ -40,7 +64,6 @@
   prerequisites: |
     Открыта страница регистрации
   test-data: |
-    Тестовые данные
     Nickname = Anna2 Email = anna.an.petrova@gmail.com Password = password
   steps:
     - Ввести Nickname
