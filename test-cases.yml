@@ -9,10 +9,10 @@
     Тестовые данные
     Nickname = Anna2 Email = anna.petrova@kibb.knc.ru Password = password
   steps:
-    - Вводим Nickname
-    - Вводим Email
-    - Вводим Password
-    - Нажимаем кнопку «Submit»
+    - Ввести Nickname
+    - Ввести Email
+    - Ввести Password
+    - Нажать кнопку «Submit»
   expected-result: |
     Пользователь должен получить подтверждение об успешной регистрации
     
@@ -26,10 +26,10 @@
     Тестовые данные
     Nickname = Anna Email = anna.petrova@kibb.knc.ru Password = password
   steps:
-    - Вводим Nickname
-    - Вводим Email
-    - Вводим Password
-    - Нажимаем кнопку «Submit»
+    - Ввести Nickname
+    - Ввести Email
+    - Ввести Password
+    - Нажать кнопку «Submit»
   expected-result: |
     Пользователь должен получить сообщение о том, что Nickname уже используется
 
@@ -43,10 +43,10 @@
     Тестовые данные
     Nickname = Anna2 Email = anna.an.petrova@gmail.com Password = password
   steps:
-    - Вводим Nickname
-    - Вводим Email
-    - Вводим Password
-    - Нажимаем кнопку «Submit»
+    - Ввести Nickname
+    - Ввести Email
+    - Ввести Password
+    - Нажать кнопку «Submit»
   expected-result: |
     Пользователь должен получить сообщение о том, что Email уже используется
     
@@ -59,9 +59,9 @@
   test-data: |
     Email = anna.petrova@kibb.knc.ru Password = password
   steps:
-    - Вводим Email
-    - Вводим Password
-    - Нажимаем кнопку «Submit»
+    - Ввести Email
+    - Ввести Password
+    - Нажать кнопку «Submit»
   expected-result: |
     Пользователь должен попасть на главную страницу
 
@@ -74,8 +74,21 @@
   test-data: |
     Email = hexlet Password = badpass
   steps:
-    - Вводим email
-    - Вводим Password
-    - Нажимаем кнопку «Submit»
+    - Ввести email
+    - Ввести Password
+    - Нажать кнопку «Submit»
   expected-result: |
     Пользователь должен получить сообщение об ошибке
+
+- summary: |
+    Проверка входа пользователя через Github
+  requirement: |
+    При использовании аккаунта Github пользователь должен войти в аккаунт
+  prerequisites:
+    Открыта страница логина
+  test-data: |
+    No data
+  steps:
+    - Нажать кнопку «Sigh in with Github»
+  expected-result: |
+    Пользователь должен попасть на главную страницу
