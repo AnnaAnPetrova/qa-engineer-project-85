@@ -95,7 +95,7 @@
   prerequisites:
     Открыта страница логина
   test-data: |
-    Email = hexlet Password = badpass
+    Email = hexlet@gmail.com Password = badpass
   steps:
     - Ввести email
     - Ввести Password
