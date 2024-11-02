@@ -411,3 +411,42 @@
     - Нажать кнопку «Give up» в появившемся окне
   expected-result: |
     Должно появиться сообщение о проигрыше пользователя
+
+- summary: |
+    Обнуления solution
+  requirement: 
+    Пользователь должен иметь возможность обнулить solution
+  prerequisites:
+    Пользователь авторизован, создана игра с ботом/пользователем
+  test-data: |
+    No data
+  steps:
+    - В игровом поле набрать любой текст
+    - Нажать кнопку с вертикальным многоточием
+    - Нажать кнопку «Reset solution»
+  expected-result: |
+    Solution в игровом поле должно обнулиться до начальных значений
+
+- summary: |
+    Автоматическая проверка решения
+  requirement: 
+    Пользователь должен иметь возможность запустить проверку solution
+  prerequisites:
+    Пользователь авторизован
+  test-data: |
+    Код для победы в игре:
+    const _ = require("lodash");
+    const R = require("rambda");
+    const solution = (width, length) => {
+    return width * length;
+    };
+    module.exports = solution;
+  steps:
+    - Нажать кнопку «Create game»
+    - Выбрать игру с ботом
+    - Выбрать задачу rect_area
+    - Выбрать язык кодирования NodeJS
+    - В игровом поле ввести test-data
+    - Нажать кнопку «Run»
+  expected-result: |
+    Должно появиться окно с сообщением о победе пользователя
