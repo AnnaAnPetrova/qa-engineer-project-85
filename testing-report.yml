@@ -58,3 +58,103 @@
 - summary: |
     Отмена приглашения друга к игре до ее начала
   status: pass
+
+- summary: |
+    Создание зарегистрированным пользователем игры с ботом
+  status: pass
+
+- summary: |
+    Выбор сложности игры при создании игры
+  status: pass
+
+- summary: |
+    Выбор продолжительности игры
+  status: pass
+
+- summary: |
+    Выбор рандомной задачи по тэгам
+  status: pass
+
+- summary: |
+    Присоединение к созданной игре
+  status: pass
+
+- summary: |
+    Просмотр чужой игры
+  status: pass
+
+- summary: |
+    Просмотр истории игры
+  status: pass
+
+- summary: |
+    Просмотр Guide в игре
+  status: pass
+
+- summary: |
+    Смена тема игры
+  status: pass
+
+- summary: |
+    Проверка чата в игре
+  status: pass
+
+- summary: |
+    Выбор языка кодирования в игре
+  status: pass
+
+- summary: |
+    Выбор языка описания задачи в игре
+  status: pass
+
+- summary: |
+    Возможность сдаться в игре
+  status: pass
+
+- summary: |
+    Обнуления solution
+  status: pass
+
+- summary: |
+    Автоматическая проверка решения
+  status: pass
+
+- summary: |
+    Rematch
+  status: fail
+
+- summary: |
+    Просмотр игрового поля соперника
+  status: pass
+
+- summary: |
+    Возвращение в игру после вылета 
+  status: pass
+
+- summary: |
+    Использование общего чата на сайте 
+  status: pass
+
+- summary: |
+    Изменение nickname в настройках 
+  status: pass
+
+- summary: |
+    Изменение языка кодирования в настройках  
+  status: pass
+
+- summary: |
+    Изменение звука в настройках  
+  status: pass
+
+- summary: |
+    Изменение громкости звука в настройках 
+  status: pass
+
+- summary: |
+    Просмотр статистики пользователя 
+  status: pass
+
+- summary: |
+    Ранжирование пользователей по рейтингам 
+  status: fail
