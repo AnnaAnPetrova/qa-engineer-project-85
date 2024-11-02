@@ -1,1 +1,36 @@
+---
+- summary: |
+    Проверка кнопки «Sign in»
+  status: pass
 
+- summary: |
+    Проверка кнопки «Sign up»
+  status: pass
+
+- summary: |
+    Регистрация нового пользователя с уникальными данными
+  status: fail
+
+- summary: |
+    Регистрация нового пользователя с существующим Nickname
+  status: pass
+
+- summary: |
+    Регистрация нового пользователя с существующим Email
+  status: pass
+
+- summary: |
+    Проверка входа пользователя с существующими email и паролем
+  status: fail
+
+- summary: |
+    Проверка входа пользователя с несуществующими email и паролем
+  status: fail
+
+- summary: |
+    Проверка входа пользователя через Github
+  status: pass
+
+- summary: |
+    Проверка входа пользователя через Discord
+  status: fail
