@@ -113,6 +113,7 @@
     No data
   steps:
     - Нажать кнопку «Sigh in with Github»
+    - Ввести данные Discord в открывшемся окне
   expected-result: |
     Пользователь должен попасть на главную страницу
 
