@@ -1,10 +1,9 @@
 ---
 issues:
-  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1986" #Ошибка сервера при регистрации нового пользователя
-  - url: ""
-  - url: ""
-  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1994" #Discord
+  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1986" #Регистрация нового пользователя с уникальными данными
+  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1991" #Проверка входа пользователя с существующими email и паролем
+  - url: "" #Проверка входа пользователя с несуществующими email и паролем
+  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1994" #Проверка входа пользователя через Discord
   - url: "https://github.com/hexlet-codebattle/codebattle/issues/1661" #Rematch
+  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1908" #Изменение звука в настройках
 
-  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1908" #Тип музыки после окончания игры не соответствует выбранному типу в настройках профиля
-https://github.com/hexlet-codebattle/codebattle/issues/1994
