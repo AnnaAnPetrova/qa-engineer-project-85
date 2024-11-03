@@ -1,8 +1,8 @@
 ---
 issues:
-  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1986"
-  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1173"
+  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1986" #Ошибка сервера при регистрации нового пользователя
+  - url: ""
 
 
-  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1908"
+  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1908" #Тип музыки после окончания игры не соответствует выбранному типу в настройках профиля
 https://github.com/hexlet-codebattle/codebattle/issues/1994
