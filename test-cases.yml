@@ -1,42 +1,18 @@
----
-- summary: |
-    Проверка кнопки «Sign in»
-  requirement: |
-    Пользователь должен попасть на страницу логина
-  prerequisites: |
-    No data
-  test-data: |
-    No data
-  steps:
-    - Нажать кнопку «Sign in»
-  expected-result: |
-    Пользователь должен попасть на страницу логина
-
-- summary: |
-    Проверка кнопки «Sign up»
-  requirement: |
-    Пользователь должен попасть на страницу регистрации
-  prerequisites: |
-    No data
-  test-data: |
-    No data
-  steps:
-    - Нажать кнопку «Sign up»
-  expected-result: |
-    Пользователь должен попасть на страницу регистрации
-    
+---  
 - summary: |
     Регистрация нового пользователя с уникальными данными
   requirement: |
     Пользователь должен получить подтверждение об успешной регистрации
   prerequisites: |
-    Открыта страница регистрации
+    No data
   test-data: |
     Nickname = Anna2 Email = anna.petrova@kibb.knc.ru Password = password
   steps:
+    - Нажать кнопку «Sign up»
     - Ввести Nickname
     - Ввести Email
     - Ввести Password
+    - Ввести Password Confirmation
     - Нажать кнопку «Submit»
   expected-result: |
     Пользователь должен получить подтверждение об успешной регистрации
@@ -46,13 +22,15 @@
   requirement: |
     Пользователь должен получить сообщение о том, что Nickname уже используется
   prerequisites: |
-    Открыта страница регистрации
+    No data
   test-data: |
     Nickname = Anna Email = anna.petrova@kibb.knc.ru Password = password
   steps:
+    - Нажать кнопку «Sign up»
     - Ввести Nickname
     - Ввести Email
     - Ввести Password
+    - Ввести Password Confirmation
     - Нажать кнопку «Submit»
   expected-result: |
     Пользователь должен получить сообщение о том, что Nickname уже используется
