@@ -1,8 +1,8 @@
 ---
 issues:
   - url: "https://github.com/hexlet-codebattle/codebattle/issues/1986" #Ошибка регистрация нового пользователя с уникальными данными
-  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1991" #Ошибка при входе пользователя с существующими email и паролем
-  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1998" #Ошибка при входе пользователя с незарегистрированным email
+  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1991" #Ошибка авторизации пользователя с существующими email и паролем
+  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1998" #Ошибка 500 при попытке авторизации пользователя с незарегистрированным email
   - url: "https://github.com/hexlet-codebattle/codebattle/issues/1994" #Ошибка при входе пользователя через Discord
   - url: "https://github.com/hexlet-codebattle/codebattle/issues/1661" #Некорректная функция Rematch
   - url: "https://github.com/hexlet-codebattle/codebattle/issues/1908" #Не сохраняется изменение звука в настройках
