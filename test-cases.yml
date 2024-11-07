@@ -40,13 +40,15 @@
   requirement: |
     Пользователь должен получить сообщение о том, что Email уже используется
   prerequisites: |
-    Открыта страница регистрации
+    No data
   test-data: |
     Nickname = Anna2 Email = anna.an.petrova@gmail.com Password = password
   steps:
+    - Нажать кнопку «Sign up»
     - Ввести Nickname
     - Ввести Email
     - Ввести Password
+    - Ввести Password Confirmatio
     - Нажать кнопку «Submit»
   expected-result: |
     Пользователь должен получить сообщение о том, что Email уже используется
@@ -56,10 +58,11 @@
   requirement: |
     При правильном email или пароле пользователь должен войти в аккаунт
   prerequisites:
-    Открыта страница логина
+    No data
   test-data: |
     Email = anna.petrova@kibb.knc.ru Password = password
   steps:
+    - Нажать кнопку «Sign in»
     - Ввести Email
     - Ввести Password
     - Нажать кнопку «Submit»
@@ -71,10 +74,11 @@
   requirement: |
     При неправильном email пользователь должен получить сообщение об ошибке
   prerequisites:
-    Открыта страница логина
+    No data
   test-data: |
     Email = hexlet@gmail.com Password = badpass
   steps:
+    - Нажать кнопку «Sign in»
     - Ввести email
     - Ввести Password
     - Нажать кнопку «Submit»
@@ -86,12 +90,13 @@
   requirement: |
     При использовании аккаунта Github пользователь должен войти в аккаунт
   prerequisites:
-    Открыта страница логина
+    Пользователь должен иметь учетную записть в Github
   test-data: |
     No data
   steps:
+    - Нажать кнопку «Sign in»
     - Нажать кнопку «Sigh in with Github»
-    - Ввести данные Discord в открывшемся окне
+    - Ввести данные Githab в открывшемся окне
   expected-result: |
     Пользователь должен попасть на главную страницу
 
@@ -100,11 +105,13 @@
   requirement: |
     При использовании аккаунта Discord пользователь должен войти в аккаунт
   prerequisites:
-    Открыта страница логина
+    Пользователь должен иметь учетную записть в Github
   test-data: |
     No data
   steps:
+    - Нажать кнопку «Sign in»
     - Нажать кнопку «Sigh in with Discord»
+    - Ввести данные Discord в открывшемся окне
   expected-result: |
     Пользователь должен попасть на главную страницу
 
