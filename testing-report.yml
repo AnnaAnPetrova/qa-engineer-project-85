@@ -1,13 +1,5 @@
 ---
 - summary: |
-    Проверка кнопки «Sign in»
-  status: pass
-
-- summary: |
-    Проверка кнопки «Sign up»
-  status: pass
-
-- summary: |
     Регистрация нового пользователя с уникальными данными
   status: fail
 
@@ -72,7 +64,11 @@
   status: pass
 
 - summary: |
-    Выбор рандомной задачи по тэгам
+    Выбор задачи
+  status: pass
+  
+- summary: |
+    Выбор случайной задачи по тэгам
   status: pass
 
 - summary: |
@@ -131,6 +127,18 @@
     Возвращение в игру после вылета 
   status: pass
 
+- summary: |
+    Создание турнира 
+  status: fail
+
+- summary: |
+    Присоединение к существующему турниру 
+  status: pass
+
+- summary: |
+    Покинуть существующий турнир 
+  status: pass
+  
 - summary: |
     Использование общего чата на сайте 
   status: pass
